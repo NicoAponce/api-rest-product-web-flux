@@ -1,0 +1,1 @@
+package spring.project.apirestwebflux.repositories;import org.springframework.data.mongodb.repository.ReactiveMongoRepository;import org.springframework.stereotype.Repository;import spring.project.apirestwebflux.documents.Category;@Repositorypublic interface ICategoryRepository extends ReactiveMongoRepository<Category,String> {}

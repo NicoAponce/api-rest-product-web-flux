@@ -1,0 +1,1 @@
+package spring.project.apirestwebflux.services;import reactor.core.publisher.Flux;import reactor.core.publisher.Mono;import spring.project.apirestwebflux.documents.Category;public interface ICategoryService {    Flux<Category> select();    Mono<Category> get(String id);    Mono<Category> insert(Category category);}

@@ -1,0 +1,1 @@
+package spring.project.apirestwebflux.repositories;import org.springframework.data.mongodb.repository.ReactiveMongoRepository;import spring.project.apirestwebflux.documents.Product;public interface IProductRepository extends ReactiveMongoRepository<Product,String> {}
